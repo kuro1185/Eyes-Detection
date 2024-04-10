@@ -1,0 +1,25 @@
+conda create -n 0410 python=3.6
+
+conda activate 0410
+
+pip install dlib-19.8.1-cp36-cp36m-win_amd64.whl
+
+pip install opencv-python
+
+pip install scipy
+
+pip install imutils
+
+pip install matplotlib
+
+pip install tensorflow
+
+pip install Pillow
+
+conda uninstall PIL
+conda uninstall Pillow
+conda install Pillow
+
+***********************************
+Linux
+sudo apt-get install python3-scipy
